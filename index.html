@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Turma 57</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <section class="container-banner">
+        <div class="img-animation-1">
+            <img src="img/Star 19.png" alt="">
+        </div>
+        <div class="img-animation-2">
+            <img src="img/Star 19.png" alt="">
+        </div>
+        <div class="img-animation-3">
+            <img src="img/Star 19.png" alt="">
+        </div>
+        <div class="img-animation-4">
+            <img src="img/Star 19.png" alt="">
+        </div>
+        <div class="img-animation-5">
+            <img src="img/Star 19.png" alt="">
+        </div>
+        <div class="img-animation-6">
+            <img src="img/Star 19.png" alt="">
+        </div>
+        <div class="img-animation-7">
+            <img src="img/Star 19.png" alt="">
+        </div>
+        <div class="img-animation-8">
+            <img src="img/Star 19.png" alt="">
+        </div>
+        <div class="img-animation-9">
+            <img src="img/Star 19.png" alt="">
+        </div>
+        <div class="container-card">
+           <div class="card-logo">
+            <img src="img/LetrasTurma.png" alt="Logo turma 57">
+           </div>
+           <div class="card-infos">
+                <div class="infos-title">
+                    <h1>Olá nos da turma 57</h1>
+                </div>
+                <div class="infos-sub">
+                    <p>
+                        Convidamos especialmente você para participar da nossa formatura
+                    </p>
+                </div>
+                <div id="infos-convite" style="display: none;">
+                    <span>No dia: **/10/2022 - Hora: 10:00am</span> 
+                    <a href="#">Clique aqui!</a>
+                </div>
+
+                <div class="infos-link">
+                    <span>Vamos nessa?</span>
+                    <button id="sim">Sim</button>
+                </div>
+           </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function(){
+            $('#sim').click(function(){
+                $("#infos-convite").show();
+            })
+        })
+    </script>
+</body>
+</html>
