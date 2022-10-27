@@ -1,0 +1,30 @@
+@media screen and (max-width: 1100px) {
+    .container-card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    
+    .container-card{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card-logo{
+        top: -20px;
+        left: 5%;
+    }
+    .card-logo img{
+        width: 100px;
+        height: 100px;
+    }
+    .infos-title{
+        margin-top: 60px;
+    }
+    #infos-convite{
+        font-size: 1.1em;
+        padding: 0px 5px;
+    }
+}

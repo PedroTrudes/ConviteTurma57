@@ -164,6 +164,7 @@
     50%{
         top: 90%;
         opacity: 0;
+        rotate: 1060deg;
     }
     100%{
         top: 0%;
